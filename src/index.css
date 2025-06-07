@@ -1,4 +1,49 @@
 
+
+/* @import "tailwindcss"; */
+/* @import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+
+
+@tailwind utilities; */
+
+
+/* @tailwind base;
+@tailwind components; */
+
+/* @tailwind base;
+
+/* @tailwind base is longer available in v4. Use "import "tailwindcss/preflight insatead */
+/* @tailwind components; */
+/* * @tailwind base is longer available in v4. Use "import "tailwindcss/utilities insatead */
+
+
+/* @tailwind utilities; */ 
+ /* unkown at rule@tailwind   */
+
+/* @import "tailwindcss"; */
+/* @import "tailwindcss/preflight";
+@import "tailwindcss/utilities"; */
+
+
+
+
+
 @import "tailwindcss";
+
+/* Fix full height for dark mode to apply properly */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: transition smoothness */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
 

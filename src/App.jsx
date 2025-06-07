@@ -1,6 +1,4 @@
 
-
-import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
@@ -10,12 +8,13 @@ import MoodMate from './pages/projects/MoodMate'
 import Projects from './pages/projects/Projects'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import './App.css'
+
+
 function App() {
   
-
-  return ( 
+ return ( 
     <>
-  
      <BrowserRouter>
       <Navbar />
       <Routes>
@@ -31,6 +30,17 @@ function App() {
     
     </>
   )
+  
+
 }
 
 export default App
+
+
+
+
+
+
+
+
+
