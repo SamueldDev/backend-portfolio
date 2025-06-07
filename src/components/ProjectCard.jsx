@@ -1,6 +1,4 @@
 
-
-// src/components/ProjectCard.jsx
 import { Link } from "react-router-dom";
 
 export default function ProjectCard({ project }) {

@@ -1,6 +1,10 @@
 
 
 import './App.css'
+import About from './components/About'
+import Contact from './components/Contact'
+import Navbar from './components/Navbar'
+import Skills from './components/Skills'
 // import ProjectList from './components/ProjectList'
 import MoodMate from './pages/projects/MoodMate'
 import Projects from './pages/projects/Projects'
@@ -11,20 +15,16 @@ function App() {
 
   return ( 
     <>
-    {/* <div className="min-h-screen bg-gray-100 text-gray-900 p-8">
-      <h1 className="text-3xl font-bold">Backenddd Portfolio</h1>
-      <p className="mt-2 text-lg">Showcasing my backend development projects.</p>
-
-      <main>
-      <ProjectList />   
-     </main>
-
-    </div> */}
-
+  
      <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Projects />} />
         <Route path="/projects/moodmate" element={<MoodMate />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
 
