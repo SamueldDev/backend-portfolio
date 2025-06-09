@@ -1,6 +1,7 @@
 
 
 import me from "../assets/me.png"
+import resume from "../assets/friday-resume.pdf"
 
 export default function About() {
   return (
@@ -25,8 +26,8 @@ export default function About() {
       </p>
 
       <a
-        href="" // 
-        // download
+        href={resume}  
+        download
         className="inline-block text-green-400 px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition"
       >
         📄 Download CV

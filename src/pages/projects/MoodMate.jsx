@@ -34,11 +34,11 @@ export default function MoodMate() {
       <section>
         <h2 className="text-xl font-bold">🔗 Links</h2>
         <ul className="list-disc list-inside text-blue-500">
-          <li><a href="https://moodmate-production.up.railway.app/" target="_blank">Live API</a></li>
+          <li><a href="https://moodmate-production.up.railway.app/api-docs" target="_blank">Swagger Documentation</a></li>
           <li><a href="https://github.com/SamueldDev/moodmate-backend" target="_blank">GitHub Repo</a></li>
-          <li><a href="/backend-portfolio/MoodMate API.postman_collection.json" download>Postman Collection</a></li>
+          <li><a href="/moodmate_postman_collection.json" download>Postman Collection</a></li>
         </ul>
-      </section>
+      </section> 
     </div>
   );
 }
